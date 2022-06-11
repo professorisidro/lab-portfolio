@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>.: Site do Querido Professor :.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- barrinha de navegacao -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Isidro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quem Sou Eu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Front</a></li>
+                            <li><a class="dropdown-item" href="#">Back</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Portifolio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Pague um cafe para o Isidro</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Busque um Conteudo" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carrossel de imagens -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./banner1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./banner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./banner3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- conjunto de cards para mostrar meus cursos -->
+    <div class="container">
+        <div class="row mt-2 mb-2">
+            <div class="col-12 text-center">
+                <h3>Confira nossos cursos</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 1</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 1 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 2</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 2 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 3</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 3 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 4</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 4 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 5</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 5 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 6</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 6 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 7</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 7 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 8</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 8 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 9</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 9 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="card" style="width: 100%;">
+                    <img src="./10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Curso 10</h5>
+                        <p class="card-text">Algum texto bacana falando bem do curso 10 para a galera comprar sem pensar
+                        </p>
+                        <a href="#" class="btn btn-primary">Comprar!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rodape -->
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-center">
+                <img src="logo.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-center">
+                <h3>Professor Isidro</h3>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-center">
+                <h3>Sigam-me os bons!</h3>
+                <a href="https://www.youtube.com/c/ProfessorIsidroVamosProgramar"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                <a href="https://www.instagram.com/professorisidro"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://www.github.com/professorisidro"><i class="fa-brands fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
